@@ -92,6 +92,6 @@ For detials on installing PosgreQSL check the [documentation](https://www.postgr
 1. Enter that password you set during installation.
 2. Click over **Servers** on the left panel. Enter the password again.
 3. If the installation was successful, you should see the server dashboard
-![pgadming dashboad](feed\static\img\pgadmin.png)
+![pgadming dashboad](feed/static/img/pgadmin.png)
 
 
