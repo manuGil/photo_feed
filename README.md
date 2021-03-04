@@ -14,7 +14,7 @@ Make sure you complete the **Get Ready** section before the session.
 
 Before the session copy the repository, and isntall the apps mentioned below.
 
-### DJango Photo Feed App
+### 1. DJango Photo Feed App
 
 This a Django app to  building a photo feed, and it was originally developed by [Samuel Ogundipe](https://github.com/samuelayo). The app is similar to instagram, but a stripped off version without the comments and like feature. The original tutorial can be found here: [https://pusher.com/tutorials/photo-feed-django/ ](https://pusher.com/tutorials/photo-feed-django/) 
 
@@ -76,7 +76,7 @@ python manage.py runserver.
 ```
 and visit http://localhost:8000/ to see the application in action.
 
-### Install PostgreSQL
+### 2. Install PostgreSQL
 
 By default any Django app uses *sqlLite* as a database. This is file-based datase which is very handy for fast development. However, in production a professional Database Management System should be used, e.g., MySQL, PostgreSQL. We will use postgreSQL.
 
