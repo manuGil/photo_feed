@@ -1,7 +1,7 @@
 
 # Web Apps
 
-In this session we will explore some of the concepts beding the developmento of web applications. We will use a Django web app as use case, but this won't be a Django tutorial.
+In this session we will explore some of the concepts behing the development of web applications. We will use a Django web app as use case, but this won't be a Django tutorial.
 
 Make sure you complete the **Get Ready** section before the session.
 
@@ -12,7 +12,7 @@ Make sure you complete the **Get Ready** section before the session.
 
 ## Get Ready
 
-Before the session copy the repository, and isntall the apps mentioned below.
+Before the session copy the repository, and install what is mentioned below.
 
 ### 1. DJango Photo Feed App
 
@@ -74,11 +74,11 @@ And finally, start the application to check that it works.
 ```
 python manage.py runserver.
 ```
-and visit http://localhost:8000/ to see the application in action.
+and visit http://localhost:8000/ to see that the application is working. Move to the next step.
 
 ### 2. Install PostgreSQL
 
-By default any Django app uses *sqlLite* as a database. This is file-based datase which is very handy for fast development. However, in production a professional Database Management System should be used, e.g., MySQL, PostgreSQL. We will use postgreSQL.
+By default any Django app uses *sqLite* as a database. This is file-based datase which is very handy for fast development. However, in production a professional Database Management System should be used, e.g., MySQL, PostgreSQL. We will use postgreSQL.
 
 - [Download the latest version of postgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) for you OS and install it. Put special attention to:
 1. the **password** you will set for the superuser *postgres*
