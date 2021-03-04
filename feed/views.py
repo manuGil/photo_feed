@@ -6,7 +6,9 @@ import json
 
 
 #instantiate pusher
-pusher = Pusher(app_id=u'XXX_APP_ID', key=u'XXX_APP_KEY', secret=u'XXX_APP_SECRET', cluster=u'XXX_APP_CLUSTER')
+
+##pusher = Pusher(app_id=u'XXX_APP_ID', key=u'XXX_APP_KEY', secret=u'XXX_APP_SECRET', cluster=u'XXX_APP_CLUSTER')
+
 # Create your views here.
 # function that serves the welcome page
 def index(request):
@@ -34,7 +36,7 @@ def push_feed(request):
         if form.is_valid():
             f = form.save()
             # trigger a pusher request after saving the new feed element 
-            pusher.trigger(u'private-a_channel', u'an_event', {u'description': f.description, u'document': f.document.url})
+            ## pusher.trigger(u'private-a_channel', u'an_event', {u'description': f.description, u'document': f.document.url})
             return HttpResponse('ok')
         else:
             # return a form not valid error
