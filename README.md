@@ -14,7 +14,7 @@ Make sure you complete the **Get Ready** section before the session.
 
 Before the session copy the repository, and isntall the apps mentioned below.
 
-## DJango Photo Feed App
+### DJango Photo Feed App
 
 This a Django app to  building a photo feed, and it was originally developed by [Samuel Ogundipe](https://github.com/samuelayo). The app is similar to instagram, but a stripped off version without the comments and like feature. The original tutorial can be found here: [https://pusher.com/tutorials/photo-feed-django/ ](https://pusher.com/tutorials/photo-feed-django/) 
 
@@ -23,7 +23,7 @@ This a Django app to  building a photo feed, and it was originally developed by 
 * [DJango](https://docs.djangoproject.com/) - The web framework for perfectionists with deadlines. 
 * [Jquery](https://jquery.com/) - The Write Less, Do More, JavaScript Library
 
-### Clonning the App
+#### Clonning the App
 
 These instructions (for Windows) will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
